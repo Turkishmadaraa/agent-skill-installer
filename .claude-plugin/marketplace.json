@@ -1,0 +1,17 @@
+{
+  "name": "agent-skill-installer",
+  "owner": { "name": "Turkishmadaraa" },
+  "metadata": {
+    "description": "Install agent skills from any GitHub repo or well-known URL, with a built-in security scan.",
+    "version": "2.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skill-installer",
+      "description": "Find, security-scan and install agent skills for Claude Code, Codex, Cursor, Abacus.AI and more.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/installing-agent-skills"]
+    }
+  ]
+}
