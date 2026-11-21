@@ -5,8 +5,8 @@
 #   bash <(curl -fsSL .../install.sh) anthropics/skills@pdf --agent claude-code
 #
 # No arguments: installs the installer itself as a skill for every detected agent.
-# Pin a release for reproducible installs: SKILL_INSTALLER_REF=v2.0.0
-set -euo pipefail
+# Pin a release for reproducible installs: SKILL_INSTALLER_REF=v2.0.1
+set -eu
 
 REPO="Turkishmadaraa/agent-skill-installer"
 REF="${SKILL_INSTALLER_REF:-main}"

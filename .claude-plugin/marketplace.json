@@ -3,7 +3,7 @@
   "owner": { "name": "Turkishmadaraa" },
   "metadata": {
     "description": "Install agent skills from any GitHub repo or well-known URL, with a built-in security scan.",
-    "version": "2.0.0"
+    "version": "2.0.1"
   },
   "plugins": [
     {

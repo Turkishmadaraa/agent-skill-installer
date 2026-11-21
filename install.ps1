@@ -2,7 +2,7 @@
 #   irm https://raw.githubusercontent.com/Turkishmadaraa/agent-skill-installer/main/install.ps1 | iex
 # With arguments:
 #   & ([scriptblock]::Create((irm https://raw.githubusercontent.com/Turkishmadaraa/agent-skill-installer/main/install.ps1))) anthropics/skills@pdf --agent claude-code
-# Pin a release: $env:SKILL_INSTALLER_REF = "v2.0.0"
+# Pin a release: $env:SKILL_INSTALLER_REF = "v2.0.1"
 $ErrorActionPreference = "Stop"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $Repo = "Turkishmadaraa/agent-skill-installer"

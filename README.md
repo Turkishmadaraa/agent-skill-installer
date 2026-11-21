@@ -53,7 +53,7 @@ irm https://raw.githubusercontent.com/Turkishmadaraa/agent-skill-installer/main/
 ```
 
 > Uzaktan script çalıştırmadan önce içeriğini okumanızı öneririz. Sabit bir sürüm için
-> `SKILL_INSTALLER_REF=v2.0.0` ortam değişkenini ayarlayın.
+> `SKILL_INSTALLER_REF=v2.0.1` ortam değişkenini ayarlayın.
 
 ---
 

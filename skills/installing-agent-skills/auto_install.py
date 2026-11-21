@@ -43,7 +43,7 @@ import urllib.request
 import zipfile
 from pathlib import Path, PurePosixPath
 
-VERSION = "2.0.0"
+VERSION = "2.0.1"
 USER_AGENT = f"agent-skill-installer/{VERSION}"
 SEARCH_API = "https://skills.sh"
 TIMEOUT = 30
